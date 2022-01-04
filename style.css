@@ -1,0 +1,10 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size:40px;
+}
+.mis{color:orange;
+}
+ section{display:flex;}
+ .half-width{width:80%;}
