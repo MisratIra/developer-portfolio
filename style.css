@@ -5,9 +5,13 @@ body{
 h1{
     font-size:40px;
 }
+h2{
+    font-size:20px;
+}
 .mis{color:orange;
 }
- section{
+.pro{color:orange;}
+ .flexible-container{
      display:flex;
      margin-bottom: 100px;
     }
@@ -33,3 +37,29 @@ h1{
         background-image: url(images/dream-bg.png);
         background-repeat: no-repeat;
     }
+    .Experience-area{
+        background-image:url(images/exp-bg.png);
+        background-repeat:no-repeat;
+        background-position:left ;
+
+    }
+    .Experience-item{
+        width: 40%;
+        margin-right:5%;
+        margin-left:5%;
+        padding-left:10px;
+        border-radius: 15px;
+        box-shadow:10px 10px 40px gray;
+ }
+ #web-dev-experience{
+     border-left: 7px solid;
+     border-image:linear-gradient(rgb(248, 252, 13),rgb(224, 24, 24));
+     border-image-slice: 1;
+     border-radius: 15px;
+ }
+#Full-stack-Experience{
+
+    border-left: 7px solid;
+     border-image:linear-gradient(rgb(248, 252, 13),rgb(224, 24, 24));
+     border-image-slice: 1;
+}
